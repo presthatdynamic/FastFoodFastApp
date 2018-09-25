@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order-list | FastFoodFast</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div>
+        <ul>
+                <li><a href="../index.html">Login</a></li>
+                <li><a href="signup.html">Register</a></li>
+                <li><a href="#"  class="active">Food Items</a></li>
+                <li><a href="userOrders.html">Order History</a></li>
+                <li style="float:right"><a  href="../index.html">Log out</a></li>
+            </ul> 
+    </div>
+    <div class="form-orderlist">
+        <form action="userOrders.html" method="post" name='form1' onsubmit="return checkform(this);">
+            <table>
+                <tr>
+                  <th>KFC <br/>Food</th>
+                  <th> <br/>Image</th>
+                  <th> <br/>Price</th>
+                  <th> <br/>Quantity</th>
+                  <th> <br/>Order Now!</th>
+                </tr>
+                <tr>
+                  <td>2 Pc. Chicken – Combo</td>
+                  <td><img src="../static/images/Chicken-combo.jpg" alt="" class="imgList"></td>
+                  <td>20,000Ugshs</td>
+                  <td><input type="text" name="txtFloat" value="0.0001"></td>
+                  <td><input type="checkbox" name="kfc-chicken" value="2 Pc. Chicken – Combo" /></td>
+                </tr>                
+                <tr>
+                    <td>Doublicious Sandwich</td>
+                    <td><img src="../static/images/Doublicious Sandwich–Combo.jpg" alt="" class="imgList"></td>
+                    <td>25,000Ugshs</td>
+                    <td><input type="text" name="txtFloat1" value="0.0001"></td>
+                    <td><input type="checkbox" name="kfc-sandwitch" value="Doublicious Sandwich" /></td>
+                </tr>
+                <tr>
+                    <td>Popcorn Nuggets</td>
+                    <td><img src="../static/images/Popcorn-Nuggets-Combo.jpg" alt="" class="imgList"></td>
+                    <td>15,000Ugshs</td>
+                    <td><input type="text" name="txtFloat2" value="0.0001"></td>
+                    <td><input type="checkbox" name="kfc-popcorn" value="Popcorn Nuggets" /></td>
+                </tr> 
+                <tr>
+                    <td>Roast Pork</td>
+                    <td><img src="../static/images/bg-img.jpg" alt="" class="imgList"></td>
+                    <td>30,000Ugshs</td>
+                    <td><input type="text" name="txtFloat3" value="0.0001"></td>
+                    <td><input type="checkbox" name="kfc-roast" value="Roast Pork" /></td>
+                </tr>
+
+              <tr>
+                <th>MCDonald <br/>Food</th>
+                <th> <br/>Image</th>
+                <th> <br/>Price</th>
+                <th> <br/>Quantity</th>
+                <th> <br/>Order Now!</th>
+              </tr>
+              <tr>
+                    <td>Mashed Potatoes</td>
+                    <td><img src="../static/images/Mashed-Potatoes.jpg" alt="" class="imgList"></td>
+                    <td>13,000Ugshs</td>
+                    <td><input type="text" name="txtFloat4" value="0.0001"></td>
+                    <td><input type="checkbox" name="mc-Potatoes" value="Mashed Potatoes" /></td>
+                  </tr>
+                  <tr>
+                      <td>Mac & Cheese</td>
+                      <td><img src="../static/images/Mac-Cheese.jpg" alt="" class="imgList"></td>
+                      <td>13,000Ugshs</td>
+                      <td><input type="text" name="txtFloat5" value="0.0001"></td>
+                      <td><input type="checkbox" name="mc-Cheese" value="Mac & Cheese" /></td>
+                  </tr>
+                  <tr>
+                      <td>Chicken Box</td>
+                      <td><img src="../static/images/Chicken-Box.jpg" alt="" class="imgList"></td>
+                      <td>28,000Ugshs</td>
+                      <td><input type="text" name="txtFloat6" value="0.0001"></td>
+                      <td><input type="checkbox" name="mc-Box" value="Chicken Box" /></td>
+                  </tr> 
+                  <tr>
+                      <td>Mushroom soup</td>
+                      <td><img src="../static/images/bg-img.jpg" alt="" class="imgList"></td>
+                      <td>15,000Ugshs</td>
+                      <td><input type="text" name="txtFloat7" value="0.0001"></td>
+                      <td><input type="checkbox" name="kfc-soup" value="Mushroom soup" /></td>
+                  </tr>
+                  <input type="submit" value="Order Now" class="register short">
+              </table>
+              
+        </form>
+    </div>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order-list | FastFoodFast</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div>
+        <ul>
+                <li><a href="../index.html">Login</a></li>
+                <li><a href="signup.html">Register</a></li>
+                <li><a href="foodList.html">Food Items</a></li>
+                <li><a href="#"  class="active">Order History</a></li>
+                <li style="float:right"><a  href="../index.html">Log out</a></li>
+            </ul> 
+    </div>
+    <div class="form-orderlist">
+        <form action="" method="post">              
+            <table>
+                <tr>
+                  <th>Food</th>
+                  <th>Image</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Completed</th>
+                  <th>Action</th>
+                  <th></th>
+                </tr>
+                <tr>
+                  <td>2 Pc. Chicken – Combo</td>
+                  <td><img src="../static/images/Chicken-combo.jpg" alt="" class="imgList"></td>
+                  <td>20,000Ugshs</td>
+                  <td><input type="text" name="quantity-chicken" value="1"></td>
+                  <td><input type="checkbox" name="kfc-sandwitch" value="Doublicious Sandwich"  checked /></td>
+                  <td><input type="submit"  value="Edit" class="login disabled" /></td><td><input type="button" name="withdraw" value="withdraw" class="register disabled" /></td>
+                </tr>
+                <tr>
+                    <td>Mashed Potatoes</td>
+                    <td><img src="../static/images/Mashed-Potatoes.jpg" alt="" class="imgList"></td>
+                    <td>13,000Ugshs</td>
+                    <td><input type="text" name="quantity-Potatoes" value="1"></td>
+                    <td><input type="checkbox" name="kfc-sandwitch" value="Doublicious Sandwich" /></td>
+                    <td><input type="submit" name="edit" value="Edit" class="login" /></td><td><input type="submit" name="withdraw" value="withdraw" class="register" /></td>
+                    </tr>
+                    <tr>
+                    <td>Mac & Cheese</td>
+                    <td><img src="../static/images/Mac-Cheese.jpg" alt="" class="imgList"></td>
+                    <td>13,000Ugshs</td>
+                    <td><input type="text" name="quantity-Cheese" value="3"></td>
+                    <td><input type="checkbox" name="kfc-sandwitch" value="Doublicious Sandwich"  checked /></td>
+                    <td><input type="submit" name="edit" value="Edit" class="login disabled" /></td><td><input type="submit" name="withdraw" value="withdraw" class="register disabled" /></td>
+                </tr>
+                <tr>
+                    <td>Roast Pork</td>
+                    <td><img src="../static/images/bg-img.jpg" alt="" class="imgList"></td>
+                    <td>30,000Ugshs</td>
+                    <td><input type="text" name="quantity-roast" value="6"></td>
+                    <td><input type="checkbox" name="kfc-sandwitch" value="Doublicious Sandwich" /></td>
+                    <td><input type="submit" name="edit" value="Edit" class="login" /></td><td><input type="submit" name="withdraw" value="withdraw" class="register" /></td>
+                </tr>
+                <tr>
+                    <td>Mushroom soup</td>
+                    <td><img src="../static/images/bg-img.jpg" alt="" class="imgList"></td>
+                    <td>15,000Ugshs</td>
+                    <td><input type="text" name="quantity-mushroom" value="2"></td>
+                    <td><input type="checkbox" name="kfc-sandwitch" value="Doublicious Sandwich"  /></td>
+                    <td><input type="submit" name="edit" value="Edit" class="login" /></td><td><input type="submit" name="withdraw" value="withdraw" class="register" /></td>
+                </tr>  
+                <a href="foodList.html" class="register short">New Order +</a>            
+              </table>             
+        </form>
+    </div>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

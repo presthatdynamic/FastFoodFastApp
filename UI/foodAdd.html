@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up | FastFoodFast</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div>
+        <ul>
+                <li><a href="#" class="active">Add Food</a></li>
+                <li><a href="foodModify.html">Food Items</a></li>
+                <li><a href="foodOrders.html">Customer Orders</a></li>
+                <li style="float:right"><a  href="../index.html">Log out</a></li>
+                <li><a href="../index.html">Customer Login</a></li>
+            </ul> 
+    </div>
+    <div id="result"></div> 
+    <div class="advert">
+        <h1>New Fast Food Item</h1>
+    </div>
+    <div class="clearfix"></div>
+    <div class="form-login">
+        <form name='form1' method="post" action="foodModify.html" onsubmit="return checkform(this);">
+        <label for="foodname">Food</label>
+        <input type="text" id="foodname" name="foodname" placeholder="food name" required>
+        <label for="fimage">Image</label>
+        <input type="file" id="fimage" name="fimage">
+        <label for="fprice">Unit Price</label>
+        <input type="text" id="fprice" name="txtFloat" required>
+        <label for="desc"> Description</label>
+        <input type="text" id="desc" name="desc">
+        <label for="catg">Category</label> 
+        <select name="catg" id="catg">
+            <option value="KFC">KFC</option>
+            <option value="MCDonald">MCDonald</option>
+        </select>           
+        <input type="submit" value="Save" class="register" />
+        </form>
+    </div>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

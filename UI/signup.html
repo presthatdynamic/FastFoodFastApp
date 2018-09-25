@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up | FastFoodFast</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div>
+        <ul>
+                <li><a href="../index.html">Login</a></li>
+                <li><a href="#" class="active">Register</a></li>
+                <li><a href="foodList.html">Food Items</a></li>
+                <li style="float:right"><a  href="../index.html">Log out</a></li>
+            </ul> 
+    </div>
+    <div id="result"></div> 
+    <div class="advert">
+        <h2>Please Register to ease your Fast Foods order placements ...</h2>
+    </div>
+    <div class="clearfix"></div>
+    <div class="form-login">
+        <form action="" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="uname_store" name="username" placeholder="Username" required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email_store" name="email" placeholder="preston@gmail.com" required>
+        <label for="password">Password</label>
+        <input type="password" id="passwd_store" name="password" placeholder="Password" required>
+        <label for="password-confirm"> Confirm Password</label>
+        <input type="password" id="password_confirm_store" name="password-confirm" placeholder=" Confirm Password" required>            
+        <input type="submit" value="Sign Up" class="register" onclick="signupFn()">Already have an account <a href="../index.html">Login</a>
+        </form>
+    </div>
+    <script src="../static/js/main.js"></script>
+</body>
+</html>

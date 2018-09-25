@@ -1,0 +1,219 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg-img.jpg");
+    background-size: 100% 100%;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue ;
+    
+}
+
+/* Navigation */
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ffcc00;
+}
+
+/* form */
+.form-login {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 60px;
+    margin: 0px 3px 50px 400px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/* form */
+.form-orderlist {
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px;
+    margin: 20px 20px 20px 80px;
+    float: center;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 3px solid #66ccff;
+}
+
+.login {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.login:hover {
+    background-color: #00ccff; /* Green */
+    color: white;
+}
+.register {
+    width: 100%;
+    background-color: #00ccff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.register:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.short{
+    width: 10%;
+}
+.delete {
+    width: 100%;
+    background-color: #ff5050;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.delete:hover {
+    background-color: #ff0000; /* Green */
+    color: white;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.advert {
+    width: 30%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 5px 3px 10px 450px;
+    color: #33ccff;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+#button:link, #button:visited {
+    background-color: #3399ff;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#button:hover, #button:active {
+    background-color: #0066ff;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+/* Table inside a form */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #ffff99}
+
+th {
+    background-color: #ffcc00;
+    color: white;
+}
+
+/* Food img list */
+.imgList{
+    width:100px;
+    border-radius: 100%;
+}
+
+
+/* Pagination */
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.pagination li a.active {
+    background-color: #ffcc00;
+    color: white;
+    border: 1px solid #ffcc00;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+div.center {text-align: center;}

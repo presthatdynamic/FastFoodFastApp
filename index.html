@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login | FastFoodFast</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>  
+    <div>
+        <ul>
+                <li><a href="#" class="active">Login</a></li>
+                <li><a href="UI/foodList.html">Food Items</a></li>
+                <li><a href="UI/foodAdd.html">Admin</a></li>
+            </ul> 
+    </div>
+   
+    <div class="advert">
+        <h1>Please Login to make your Fast Foods order ...</h1>
+    </div>
+    <div class="clearfix"></div>
+    <div class="form-login">
+        <form action="UI/foodList.html" method="post" onsubmit="return loginFn();">
+        <label for="username">Username</label>
+        <input type="text" id="uname" name="username" placeholder="Username" required>
+        <label for="password">Password</label>
+        <input type="password" id="passwd" name="Password" placeholder="password" required>          
+        <input type="submit" value="Submit" class="login"> New User?
+        <a href="UI/signup.html" id="button">Register</a>
+        </form>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="static/js/main.js"></script>
+
+
+</body>
+</html>

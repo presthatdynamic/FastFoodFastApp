@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order-list | FastFoodFast</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div>
+        <ul>
+                <li><a href="foodAdd.html">Add Food</a></li>
+                <li><a href="foodModify.html">Food Items</a></li>
+                <li><a href="#" class="active">Customer Orders</a></li>
+                <li style="float:right"><a  href="../index.html">Log out</a></li>
+            </ul> 
+    </div>
+    <div class="form-orderlist">
+        <form action="" method="post">              
+            <table>
+                <tr>
+                  <th>Customer</th>
+                  <th>Food</th>
+                  <th>Image</th>
+                  <th>Quantity</th>
+                  <th>Total Amount</th>
+                  <th>Accept</th>
+                  <th>Completed</th>
+                  <th>Action</th>
+                </tr>
+                <tr>
+                  <td>Katangaza Agatha</td>
+                  <td>2 Pc. Chicken – Combo</td>
+                  <td><img src="../static/images/Chicken-combo.jpg" alt="" class="imgList"></td>
+                  <td><h2> &nbsp; &nbsp; &nbsp;1</h2></td>
+                  <td>20,000Ugshs</td>
+                  <td><input type="checkbox" name="Accepted" value="Accepted"  checked /></td>
+                  <td><input type="checkbox" name="Completed" value="Completed"  checked /></td>
+                  <td><input type="submit"  value="Submit" class="login" /></td>
+                </tr>
+                <tr>
+                    <td>Arinaitwe Mark</td>
+                    <td>Mushroom soup</td>
+                    <td><img src="../static/images/bg-img.jpg" alt="" class="imgList"></td>
+                    <td><h2> &nbsp; &nbsp; &nbsp;2</h2></td>
+                    <td>30,000Ugshs</td>
+                    <td><input type="checkbox" name="Accepted" value="Accepted"  /></td>
+                    <td><input type="checkbox" name="Completed" value="Completed" /></td>
+                    <td><input type="submit"  value="Submit" class="login" /></td>
+                    </tr>
+                    <tr>
+                        <td>Katy Perry</td>
+                        <td>Mac & Cheese</td>
+                        <td><img src="../static/images/Mac-Cheese.jpg" alt="" class="imgList"></td>
+                        <td><h2> &nbsp; &nbsp; &nbsp;3</h2></td>
+                        <td>39,000Ugshs</td>
+                        <td><input type="checkbox" name="Accepted" value="Accepted" /></td>
+                        <td><input type="checkbox" name="Completed" value="Completed" /></td>
+                        <td><input type="submit"  value="Submit" class="login" /></td>
+                    </tr>
+                        <tr>
+                        <td>Betty Wamala</td>
+                        <td>Mashed Potatoes</td>
+                        <td><img src="../static/images/Mashed-Potatoes.jpg" alt="" class="imgList"></td>
+                        <td><h2> &nbsp; &nbsp; &nbsp;1</h2></td>
+                        <td>13,000Ugshs</td>
+                        <td><input type="checkbox" name="Accepted" value="Accepted"  /></td>
+                        <td><input type="checkbox" name="Completed" value="Completed" /></td>
+                        <td><input type="submit"  value="Submit" class="login" /></td>
+                    </tr>           
+              </table>  
+              <div class="center">
+                    <ul class="pagination">
+                        <li><a href="#">«</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a class="active" href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                </div>           
+        </form>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+</body>
+</html>
